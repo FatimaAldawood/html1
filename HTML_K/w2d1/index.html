@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--BASICS-->
+    <!--
+    h1, p, br, hr
+    -->
+    <h2>Clickable Image</h2>
+    <!-- Browsers automatically add some white space (a margin) before and after a heading.-->
+    <!--Always specify the width and height of an image. 
+    If width and height are not specified, the web page might flicker while the image loads-->
+
+    <div><a href="https://www.sololearn.com/">
+        <img src="/Pictures/Sea.jpg" alt="Sea image" width="20%" height="20%">
+    </a></div>
+
+    <h2>Floated Image</h2>
+    <div>
+        <img src="/Pictures/Sea.jpg" alt="Sea Image" width="60px" height="60px" style="float: left;">
+        <h4>Sea Image</h4>
+    </div>
+
+    <br>
+
+
+    <!--IMAGE MAP-->
+    <!--x1, y1: Coordinates for the top-left corner of the rectangle.
+    x2, y2: Coordinates for the bottom-right corner of the rectangle-->
+
+    <h2>Click the Image For More Informations</h2>
+    <div><img src="/Pictures/flowers.jpg" alt="Flowers image" width="300" height="300" usemap="#nature">
+
+    <map name="nature">
+        <area shape="default" coords="34,44,270,350" href="flowers.html" alt="flowers">
+    </map></div>
+    <!--shapes(rect, circle, default, poly)-->
+
+
+
+</body>
+</html>

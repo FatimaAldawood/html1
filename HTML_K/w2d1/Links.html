@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chat:link{
+            color: blue;
+            text-decoration: none;
+            
+        }
+        .chat:visited{
+            color: brown;
+            text-decoration: underline;
+        }
+        .chat:hover{
+            color: aquamarine;
+            text-decoration: underline;
+        }
+        .chat:active{
+            color: purple;
+            text-decoration: underline;
+        }
+
+        .btn:link , .btn:visited{
+            background-color: cadetblue;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .btn:hover, .btn:active{
+            background-color: rgb(10, 157, 108);
+
+        }
+        div{
+            margin: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <!--LINKS-->
+
+    <!--
+    An unvisited link is underlined and blue
+    A visited link is underlined and purple
+    An active link is underlined and red
+    -->
+
+    <!-- TARGET
+    _slef, _blank, _parent, _top
+    -->
+    <div><a href="https://www.sololearn.com/" target="_top" title="Go to Sololearn">Sololearn</a></div>
+
+    <div><a href="mailto:fatimaaldawood@yahoo.com">Send email</a></div>
+
+    <div><button onclick="window.open('https://www.sololearn.com/', '_blank')">Click here</button></div>
+
+    <div><button onclick="window.location.href= 'https://www.sololearn.com/'">Sololearn</button></div>
+
+    <div><a href="https://chatgpt.com/" class="chat">Click here</a></div>
+
+    <div><a href="https://chatgpt.com/" class="btn">Click here</a></div>
+
+</body>
+</html>

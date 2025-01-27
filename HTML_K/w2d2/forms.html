@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--FORMS-->
+    <!--
+    Action, target, method, novalidate, autocomplete, selected, required, multiple
+    -->
+    <form action="" method="post">
+        <!--Text-->
+        <p><label for="fname">First Name: </label></p>
+        <p><input type="text" placeholder="Ali" id="fname" name="fname" ></p>
+        <p><label for="lname">Last Name: </label></p>
+        <p><input type="text" placeholder="Alghamdi" id="lname" name="lname"></p>
+        <!--Password-->
+        <p><label for="username">Username: </label></p>
+        <p><input type="text" id="username" for="username"></p>
+        <p><label for="pws">Enter Your Password: </label></p>
+        <p><input type="password" id="pws" for="pws"></p>
+        <!--Date-->
+        <p><label for="date">Your Training Start Date:</label>
+        <input type="date" id="date" for="date"></p>
+        <!--Radio button-->
+        <p>Choose your favourite language: </p>
+        <P><input type="radio" id="html" name="fav_lang" value="HTML">
+        <label for="html">HTML</label></P>
+        <P><input type="radio" id="css" name="fav_lang" value="CSS">
+        <label for="css">CSS</label></P>
+        <P><input type="radio" id="python" name="fav_lang" value="Python">
+        <label for="python">Python</label></P>
+        <!--Checkbox-->
+        <p>Choose your skills:  </p>
+        <P><input type="checkbox" id="design" name="skills" value="design">
+        <label for="html">Design</label></P>
+        <P><input type="checkbox" id="programming" name="skills" value="programming">
+        <label for="programming">programming</label></P>
+        <P><input type="checkbox" id="analysis" name="skills" value="analysis">
+        <label for="analysis">analysis</label></P>
+        <!--Select-->
+        <p><label for="majors">Select Your Major: </label>
+        <select name="majors" id="majors">
+            <option value="AI">AI</option>
+            <option value="MIS">MIS</option>
+            <option value="CIS">CIS</option>
+            <option value="CS">CS</option>
+        </select></p>
+        <!--Textarea-->
+        <p><label for="talk">Talk About Yourself: </label></p>
+        <p><textarea name="talk" id="talk" rows="10" cols="20" placeholder="Talk about yourself">
+        </textarea></p>
+
+
+    </form>
+</body>
+</html>
