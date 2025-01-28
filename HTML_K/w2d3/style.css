@@ -1,0 +1,70 @@
+*{
+    background-color: azure;
+
+}
+.Center {
+    text-align: center;
+    color: blueviolet;
+    font-size: larger;
+    background-color: rgb(178, 211, 240);
+}
+
+#h3{
+    border: 2px solid tomato;
+}
+
+.violet{
+    background-color: rgb(106, 90, 205, 0.7);
+    color: #fff;
+    max-width: 30%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.p5 {
+    border: 2px solid rgb(87, 87, 156);
+    background-color:rgb(87, 87, 156) ;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: fit-content;
+}
+.img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.txt{
+    width: 50%;
+}
+
+.withFloat > div{
+    float: left;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.cleardiv {
+    clear: left;
+}
+
+.cleardiv > div{
+    color: #fff;
+    padding: 15px;
+    width: 50%;
+}
+
+.imgClearfix{
+    float: left;
+    margin-right: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

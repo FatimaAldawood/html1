@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--SELECTORS-->
+    <div>
+        <h2>Hello</h2>
+        <p class="firstP Center">Hello World</p> <!--2 classes-->
+        <p>Hello World</p>
+        <p id="uniqueP">Hello World</p> <!--id-->
+    </div>
+    
+    <!--COLORS && BACKGROUNDS-->
+    <h3 id="h3">Hello World</h3>
+    <p class="violet">Hello World</p>
+
+    <!--MARGIN && PADDING-->
+    <!--Top and bottom margins of elements are sometimes collapsed 
+    into a single margin that is equal to the largest of the two margins-->
+    <p class="p5">Paragraph 5</p>
+
+    <!--FLOAT -->
+    <div> <!--with float-->
+        <h3>Image with float </h3>
+        <img src="/Pictures/flowers.jpg" alt="Flowers Image" width="15%" height="15%" class="img1">
+        <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+            nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.
+            Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut 
+            aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a 
+            lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac...</p>
+    </div>   
+
+    <p>Float next to each other</p>
+    <div class="withFloat">
+        <div style="background-color: blueviolet;">Div 1</div>
+        <div style="background-color: rgb(154, 83, 221);">Div 2</div>
+        <div style="background-color: rgb(181, 142, 217);">Div 3</div>
+    </div>
+
+    <!--CLEAR-->
+    <!--specifies what should happen with the element that is next to a floating element, you should match the clear to the float-->
+    <!--
+    none(default)
+    left
+    right
+    both
+    inherit
+    -->
+    <div class="cleardiv">
+        <h3>With clear left</h3>
+        <div style="background-color: rgb(50, 50, 135);" class="cdiv1">Div 4</div>
+        <div style="background-color: rgb(100, 100, 161);"class="cdiv2">Div 5</div>
+    </div>
+
+    <!--CLEARFIX-->
+    <h3>With clearfix</h3>
+    <div class="clearfix">
+        <img src="/Pictures/Sea.jpg" alt="Sea Image" width="150" height="150" class="imgClearfix">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
+        nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.
+        Maecenas nisl est, ultrices nec congue eget, auctor vitae massa
+    </div>
+
+   
+</body>
+</html>
