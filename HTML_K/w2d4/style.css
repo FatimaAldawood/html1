@@ -1,0 +1,34 @@
+@media screen and (min-width:480px) {
+    body{
+        background-color: rgb(255, 254, 254);
+    }
+}
+
+li{
+    display: inline;
+}
+
+.div2 >p>  span{
+    display: block;
+}
+
+.pborder{
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    padding: 7px;
+    width: fit-content;
+}
+
+.imgZ{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    width: 50%;
+  
+}
+  
+.pZ{
+    font-size: 17pt;
+    width: 40%;
+    padding: 10px;
+}
